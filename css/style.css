@@ -35,7 +35,7 @@ body {
 
 .logo-up-right,
 .logo-down-right {
-  color: #000000;
+  color: rgba(99, 96, 96, 0.6);
 }
 
 .link {
@@ -46,6 +46,23 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
   text-decoration: none;
+}
+
+.link-contact-up {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+
+.link-contact-down {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(99, 96, 96, 0.6);
 }
 
 .link:hover,
@@ -70,14 +87,13 @@ body {
 }
 
 .port-cursor-btn {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  color: var(--title-color);
   cursor: pointer;
-  background: var(--accent-color);
-  color: #ffffff;
   border: none;
 }
 
@@ -86,15 +102,16 @@ body {
   font-size: 14px;
   line-height: 1.71x;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: rgba(99, 96, 96, 0.6);
 }
 
 .address {
-  font-style: inherit;
+  font-style: normal;
 }
 
 .page-title {
   font-family: var(--main-font);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
